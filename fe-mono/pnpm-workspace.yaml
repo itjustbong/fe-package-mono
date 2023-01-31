@@ -1,0 +1,4 @@
+packages:
+  - admin
+  - client
+  - packages/*
