@@ -1,5 +1,5 @@
 {
-  "name": "mono-repo",
+  "name": "a",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,9 +8,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "a": "workspace:*",
-    "dayjs": "^1.11.7"
-  }
+  "license": "ISC"
 }
