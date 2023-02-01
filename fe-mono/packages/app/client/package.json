@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@fe-mono/shared-ui": "1.0.0",
+    "@fe-mono/shared-ui": "workspace:*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
