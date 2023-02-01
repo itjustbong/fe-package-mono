@@ -1,10 +1,12 @@
 import { ComponentMeta, ComponentStory } from '@storybook/react';
 import React from 'react';
 import Hello from './Hello';
+import { withKnobs, text, boolean } from '@storybook/addon-knobs';
 
 export default {
   title: 'Ssung/Hello', // 스토리북에서 보여질 그룹과 경로를 명시
   component: Hello, // 어떤 컴포넌트를 문서화 할지 명시
+  decorators: [withKnobs], // 애드온 적용
 } as ComponentMeta<typeof Hello>;
 
 const Template: ComponentStory<typeof Hello> = (args) => <Hello {...args} />;
@@ -15,4 +17,8 @@ HelloWithArgs.args = {
   name: 'hello',
 };
 
-export const HelloWithComponent = () => <Hello name="Storybook" big />;
+export const HelloWithComponent = () => {
+  const big = boolean('big', false);
+  const name = text('name', 'Storybook');
+  return <Hello name={name} big={big} />;
+};
