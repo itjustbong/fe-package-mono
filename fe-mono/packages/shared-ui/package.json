@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "main": "./src/index.tsx",
+  "main": "./index.tsx",
   "dependencies": {
     "react": "^18.2.0"
   },
