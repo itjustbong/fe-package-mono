@@ -17,6 +17,8 @@ HelloWithArgs.args = {
   name: 'hello',
 };
 
+// @storybook/addon-knobs 를 통해 각종 타입들의 props들이
+// 이벤트에 반응하여 변경될 수 있음
 export const HelloWithComponent = () => {
   const big = boolean('big', false);
   const name = text('name', 'Storybook');
