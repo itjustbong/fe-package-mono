@@ -10,5 +10,12 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "workspaces": [
+    "packages/*"
+  ],
+  "packageManager": "pnpm@7.26.0",
+  "devDependencies": {
+    "pnpm": "^7.26.0"
+  }
 }
