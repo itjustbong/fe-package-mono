@@ -1,7 +1,6 @@
 import { ComponentMeta, ComponentStory } from '@storybook/react';
 import React from 'react';
 import Hello from './Hello';
-// @ts-ignore
 import mdx from './Hello.mdx';
 
 export default {
