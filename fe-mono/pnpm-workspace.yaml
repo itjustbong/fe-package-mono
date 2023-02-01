@@ -1,4 +1,3 @@
 packages:
-  - admin
-  - client
   - packages/*
+  - packages/app/*
